@@ -1,0 +1,119 @@
+* {
+  list-style: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Fraunces", serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --main-bg-color: hsl(30, 38%, 92%);
+  --button-price-green: hsl(158, 36%, 37%);
+  --main-white: hsl(0, 0%, 100%);
+  --color-gray: hsl(228, 12%, 48%);
+  --color-dark-blue: hsl(212, 21%, 14%);
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+#content-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.container-img {
+  height: 450px;
+  width: 300px;
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#imagem {
+  height: 100%;
+  width: 100%;
+}
+
+#texto {
+  height: 450px;
+  width: 300px;
+  background-color: #fafafa;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 30px;
+}
+
+.header-texto {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 12px;
+  color: var(--color-gray);
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+.p1{
+  font-family: "Fraunces", serif;
+  font-size: 35px;
+  line-height: 33px;
+  color: var(--color-dark-blue);
+  margin-bottom: 20px;
+}
+
+.p2{
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 25px;
+  color: var(--color-gray);
+  margin-bottom: 20px;
+}
+
+.p3{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#price-after{
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--button-price-green);
+  font-family: "Fraunces", serif;
+  margin-right: 30px;
+}
+
+#price-before{
+  color: var(--color-gray);
+  font-size: 15px;
+  font-weight: normal;
+}
+
+#button-add {
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: var(--button-price-green);
+  color: var(--main-white);
+}
